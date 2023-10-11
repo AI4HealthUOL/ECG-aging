@@ -3,11 +3,11 @@
 This is the official repository for the paper [Uncovering ECG Changes during Healthy Aging using Explainable AI](https://doi.org/10.1016/j.compbiomed.2023.107115). The research uncovers healthy age-related ECG changes by analyzing ECG data from diverse age groups using diverse models such as deep learning and tree-based classifiers, as well as model explainability.
 
 
-![alt text](https://github.com/AI4HealthUOL/ECG-aging/blob/main/reports/all15BinsOverlapped_mean.pdf?style=centerme)
+![alt text](https://github.com/AI4HealthUOL/ECG-aging/blob/main/reports/all15BinsOverlapped_mean.png?style=centerme)
 
-![alt text](https://github.com/AI4HealthUOL/ECG-aging/blob/main/reports/scoresoveragegroupcomparison.pdf?style=centerme)
+![alt text](https://github.com/AI4HealthUOL/ECG-aging/blob/main/reports/scoresoveragegroupcomparison.png?style=centerme)
 
-![alt text](https://github.com/AI4HealthUOL/ECG-aging/blob/main/reports/xairesults.pdf?style=centerme)
+![alt text](https://github.com/AI4HealthUOL/ECG-aging/blob/main/reports/xairesults.png?style=centerme)
 
 
 
