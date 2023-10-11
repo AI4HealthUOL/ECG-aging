@@ -1,10 +1,27 @@
-# ECG-aging
+# Uncovering ECG Changes during Healthy Aging using Explainable AI
+
+This is the official repository for the paper [Uncovering ECG Changes during Healthy Aging using Explainable AI](https://doi.org/10.1016/j.compbiomed.2023.107115). The research uncovers healthy age-related ECG changes by analyzing ECG data from diverse age groups using diverse models such as deep learning and tree-based classifiers, as well as model explainability.
 
 
-1. Download the dataset from https://physionet.org/content/autonomic-aging-cardiovascular/1.0.0/ (last modified: 2021-06-14), and unpack it
-2. change the paths in the config file, so that they suit your environment
-3. install the common package via: pip install . (executed in the common folder) and also install all required dependencies
-4. execute data_preparation_v12.ipynb.
-5. to reproduce the xgboost results: execute xgboost_model_training_and_xai.ipynb
-6. to reproduce the xresnet50 results execute the TRAIN, TEST and INTERPRET jupiter notebooks
-7. to reproduce non-model results execute make_graph.ipynb and AnalyseHeartBeatsBetter.ipynb
+![alt text](https://github.com/AI4HealthUOL/SSSD-ECG/blob/main/clinical%20evaluation/diagnosis%20on%20normal%20samples/plots/reports/SSSD.png?style=centerme)
+
+
+
+
+### Please cite our publication if you found our research to be helpful.
+
+```bibtex
+@article{ALCARAZ2023107115,
+title = {Diffusion-based conditional ECG generation with structured state space models},
+journal = {Computers in Biology and Medicine},
+volume = {163},
+pages = {107115},
+year = {2023},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2023.107115},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482523005802},
+author = {Juan Miguel Lopez Alcaraz and Nils Strodthoff},
+keywords = {Cardiology, Electrocardiography, Signal processing, Synthetic data, Diffusion models, Time series},
+}
+
+```
